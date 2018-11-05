@@ -62,4 +62,4 @@ def villa(error):
 
 #run(app=app,host='localhost', port=8080, reloader=True, debug=True)
 
-bottle.run(host='0.0.0.0', port=argv[1], end=end)
+bottle.run(host='0.0.0.0', port=argv[1], app=app)
